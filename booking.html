@@ -1,0 +1,292 @@
+<!-- Salman Merchant 8821748  -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,400&display=swap"
+            rel="stylesheet">
+        <!--Google Fonts from https://fonts.google.com/specimen/Oleo+Script+Swash+Caps-->
+        <title>Booking</title>
+    </head>
+
+    <body>
+        <header>
+            <!--Logo Image is from https://hatchful.shopify.com/my-logos-->
+            <img id="logo" src="/images/logo.png">
+            <h1>Car Store - Salman Merchant
+                - smerchant1748@conestogac.on.ca
+            </h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="booking.html">Booking</a>
+                    <ul>
+                        <li><a href="booking.html">New Booking</li></a>
+                        <li><a href="#">Booking Status</li></a>
+                        <li><a href="#">Qureies on Booking</li></a>
+                    </ul>
+                </li>
+                <li><a href="error.html">Abouts</a></li>
+                <li><a href="error.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="box box1">
+                <!--car3.jpg by Pexels Taken at Dec 13, 2018 Photo of Black Lamborghini https://www.pexels.com/photo/photo-of-black-lamborghini-3802510/ from Pexels -->
+                <img class="hero2" src="images/car3.jpg" alt="hero" />
+                <h2 class="center">Booking Portal</h2>
+
+            </section>
+
+            <section class="cell cell2 fullImage">
+                <div>
+
+
+                    <h1>Congrats. You are just one step away to bring happiness in your life.</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Praesentium enim iure ea unde consequatur nemo repudiandae eum qui
+                        temporibus, id perspiciatis porro atque suscipit voluptatibus
+                        molestiae ullam, exercitationem quisquam facilis?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Praesentium enim iure ea unde consequatur nemo repudiandae eum qui
+                        temporibus, id perspiciatis porro atque suscipit voluptatibus
+                        molestiae ullam, exercitationem quisquam facilis?
+                    </p>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                        Praesentium enim iure ea unde consequatur nemo repudiandae eum qui
+                        temporibus, id perspiciatis porro atque suscipit voluptatibus
+                        molestiae ullam, exercitationem quisquam facilis?
+                    </p>
+
+
+                </div>
+                <div class="video_wrapper">
+                    <video id="video" autoplay muted controls poster="videos/poster.png" src="videos/CarsOnHighway.mp4">
+                    </video>
+                    <!-- Video from Pexels, Cars On Highway, Posted on December 11th, 2016 https://www.pexels.com/video/cars-on-highway-854671/ -->
+                    <div class="blur"></div>
+                </div>
+            </section>
+
+            <div id="boxtable">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th colspan="3">Booking Details</th>
+                            <th colspan="3">Price</th>
+                        </tr>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Car</th>
+                            <th>Selling Price</th>
+                            <th>Discount</th>
+                            <th>Final Cost</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1234</td>
+                            <td>Salman</td>
+                            <td>Honda Accord</td>
+                            <td>$5000</td>
+                            <td>$500</td>
+                            <td>$4500</td>
+                        </tr>
+                        <tr>
+                            <td>3162</td>
+                            <td>Arman</td>
+                            <td>Tesla Model S</td>
+                            <td>$12000</td>
+                            <td>$1000</td>
+                            <td>$11000</td>
+                        </tr>
+                        <tr>
+                            <td>4444</td>
+                            <td>Ashish</td>
+                            <td>Lamborghini</td>
+                            <td>$7000</td>
+                            <td>$700</td>
+                            <td>$6300</td>
+                        </tr>
+                        <tr>
+                            <td>7867</td>
+                            <td>Zeel</td>
+                            <td>Hyundai Elantra</td>
+                            <td>$9000</td>
+                            <td>$900</td>
+                            <td>$8100</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+
+            <div id="details">
+                <h2>
+                    <u>
+                        Fill the form to make a booking.
+                    </u>
+                </h2>
+            </div>
+
+            <style>
+                .first,
+                .second {
+                    padding: 30px;
+                    border: 2px solid rgb(0, 0, 0);
+                    border-radius: 10px;
+                }
+
+                main {
+                    border-radius: 10px;
+                    padding: 30px;
+                }
+
+                main form {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    grid-gap: 20px;
+                }
+
+                .field_area {
+                    display: grid;
+                    grid-template-columns: 1fr 2fr;
+                    grid-gap: 10px;
+                    margin: 10px 0;
+                }
+
+                #button {
+                    position: relative;
+                    font-size: 20px;
+                    background-color: black;
+                    color: white;
+                    font-weight: bolder;
+                }
+
+                button:hover {
+                    background-color: white;
+                    color: black;
+                }
+
+            </style>
+
+            <section>
+                <form action="#" method="get">
+                    <div class="first">
+                        <div class="field_area">
+                            <label for="fname">First Name</label>
+                            <input type="text" autofocus tabindex="1" id="fname" name="fname">
+                        </div>
+                        <div class="field_area">
+                            <label for="lname">Last Name</label>
+                            <input type="text" tabindex="2" id="lname" name="lname">
+                        </div>
+                        <div class="field_area">
+                            <label for="pemail">Email</label>
+                            <input type="text" tabindex="5" id="pemail" name="pemail">
+                        </div>
+                        <div class="field_area">
+                            <label for="pphone">Phone</label>
+                            <input type="text" tabindex="7" pattern="\d{3}\d{3}\d{4}" required id="pphone"
+                                name="pphone">
+                        </div>
+
+                        <div class="gender_area">
+                            <fieldset>
+                                <legend>Select Gender</legend>
+                                <div class="radio_button">
+                                    <input type="radio" tabindex="3" name="gender_type" id="male_only" value="Male">
+                                    <label for="gender_type">Male</label>
+                                </div>
+                                <div class="radio_button">
+                                    <input type="radio" tabindex="4" name="gender_type" id="female_type" value="Female">
+                                    <label for="gender_type">Female</label>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="second">
+
+                        <p>Select your car Model</p>
+                        <div class="drop_down">
+                            <label for="car">Car Model</label>
+                            <select name="car" id="car">
+                                <optgroup label="Honda">
+                                    <option value="Accord">Accord</option>
+                                    <option value="Civic">Civic</option>
+                                    <option value="CRV">CRV</option>
+                                </optgroup>
+                                <optgroup label="Toyota">
+                                    <option value="Corolla">Corollar</option>
+                                    <option value="Venza">Venza</option>
+                                    <option value="Camry">Camry</option>
+                                    <option value="Highlander">Highlander</option>
+                                </optgroup>
+                                <optgroup label="Tesla">
+                                    <option value="TeslaModelS">Tesla Model S</option>
+                                    <option value="TeslaModelX">Tesla Model X</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                        <br>
+                        <p>If you have follwing document. Please select it</p>
+                        <div class="condition_area">
+                            <input type="checkbox" name="terms" id="terms" value="Agreed">
+                            <label for="car_terms">Financial Record (Bank statement)</label>
+                        </div>
+                        <div class="condition_area">
+                            <input type="checkbox" name="terms" id="terms" value="Agreed">
+                            <label for="car_terms">Driving license record (Any accident's) </label>
+                        </div>
+                        <div class="condition_area">
+                            <input type="checkbox" name="terms" id="terms" value="Agreed">
+                            <label for="car_terms">Credit Report (Salary slip) </label>
+                        </div>
+                    </div>
+
+                    <div>
+                        <button id="button" type="submit">Submit</button>
+                    </div>
+                    <div>
+                        <button type="reset" id="button">Reset</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <nav>
+            <ul>
+                <li><a href="#">Need help</a>
+                    <ul>
+                        <li><a href="#">Call Us</a></li>
+                        <li><a href="#">Text Us</a></li>
+                        <li><a href="#">Mail Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="error.html">Privacy Policy</a></li>
+                <li><a href="error.html">Terms and Conditions</a></li>
+                <li><a href="error.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <footer>
+            &copy; Copyright Salman Merchant, smerchant1748@conestogac.on.ca
+        </footer>
+    </body>
+
+</html>

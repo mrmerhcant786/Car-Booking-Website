@@ -1,0 +1,273 @@
+/*Salman Merchant 8821748  */
+body {
+  background-color: rgb(2, 113, 2);
+  width: 1200px;
+  margin: 20px;
+  border: black 2px solid;
+  padding: 20px;
+  font-family: "Oleo Script Swash Caps", cursive;
+}
+
+#logo {
+  float: left;
+  height: 70px;
+  width: 80px;
+}
+
+header {
+  background-color: black;
+  font-size: 15px;
+  padding-top: 1px;
+  height: 70px;
+  text-align: center;
+  color: white;
+}
+
+nav {
+  background-color: #f7e7d9;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding: 0 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li ul {
+  width: 200px;
+  position: absolute;
+  z-index: 999;
+  text-align: left;
+  background-color: rgb(2, 113, 2);
+  box-shadow: 0 0 5px rgb(20, 98, 20);
+}
+
+nav ul li ul li a {
+  color: white;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li ul li:hover a:hover {
+  background-color: black;
+}
+
+nav ul li ul {
+  display: none;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+.center {
+  text-align: center;
+  position: absolute;
+  color: white;
+  padding: 532px;
+  font-size: 40px;
+}
+
+#hero img:hover {
+  opacity: 0.8;
+}
+
+.box {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 0;
+  margin: 30px 0;
+}
+
+.box1 {
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
+.box1 img {
+  width: 100%;
+}
+
+#cars {
+  width: 100%;
+}
+.cards button {
+  position: relative;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  font-weight: bolder;
+}
+
+.cards button:hover {
+  background-color: white;
+  color: black;
+}
+
+.fullImage img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.cards {
+  box-shadow: 0 0 10px black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.text {
+  text-align: center;
+  font-size: 25px;
+}
+
+/*Grid CSS */
+.cell {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 0;
+  margin: 30px 0;
+}
+
+.cell1 {
+  grid-template-columns: 1fr;
+}
+
+.cell2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.cell3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.parallax {
+  /* car2.jpg from pexels Black Modern Car Standing Illuminated and Big City in Background, Posted on February 21st, 2022 https://www.pexels.com/photo/black-modern-car-standing-illuminated-and-big-city-in-background-11194874/ */
+  background-image: url("../images/car2.jpg");
+  color: rgb(37, 255, 37);
+  text-align: center;
+  padding: 50px;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* Clip Path shapes from https://bennettfeely.com/clippy/  */
+
+.shape1 {
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+}
+.shape2 {
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.shape3 {
+  clip-path: polygon(
+    50% 0%,
+    80% 10%,
+    100% 35%,
+    100% 70%,
+    80% 90%,
+    50% 100%,
+    20% 90%,
+    0% 70%,
+    0% 35%,
+    20% 10%
+  );
+}
+
+footer {
+  font-family: "Oleo Script Swash Caps", cursive;
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+video {
+  max-width: 100%;
+}
+.video_wrapper {
+  position: relative;
+}
+.blur {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(128, 128, 128, 0.31);
+}
+
+table,
+td,
+th {
+  border: 2px solid white;
+}
+table {
+  border-collapse: collapse;
+  font-size: 30px;
+}
+td,
+th {
+  padding: 5px 10px;
+}
+th {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+tbody tr:nth-child(even) td {
+  background-color: rgb(190, 189, 189);
+}
+
+#boxtable {
+  margin-left: 100px;
+  padding-bottom: 20px;
+}
+
+#details {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 2%;
+    grid-template-columns: 1fr;
+  }
+  main form {
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+
+  .mobile_only {
+    display: block;
+  }
+  .desktop_only {
+    display: none;
+  }
+}
+
+.error {
+  text-align: center;
+  font-size: 25px;
+}
+
+.error img {
+  width: 100%;
+}
