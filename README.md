@@ -25,3 +25,5 @@
 
 Copyright (c) 2022 Salman Merchant
  
+More information related to the project in on our Wiki 
+https://github.com/salman1499/Car-Booking-Website/wiki/Car-Booking-Website
