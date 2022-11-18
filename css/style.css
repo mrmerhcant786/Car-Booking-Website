@@ -1,6 +1,6 @@
 /*Salman Merchant 8821748  */
 body {
-  background-color: rgb(2, 113, 2);
+  background-color: rgba(79, 192, 79, 0.815);
   width: 1200px;
   margin: 20px;
   border: black 2px solid;
@@ -24,7 +24,7 @@ header {
 }
 
 nav {
-  background-color: #f7e7d9;
+  background-color: #f06a58;
   padding: 20px 0;
   text-align: center;
 }
@@ -54,8 +54,8 @@ nav ul li ul {
   position: absolute;
   z-index: 999;
   text-align: left;
-  background-color: rgb(2, 113, 2);
-  box-shadow: 0 0 5px rgb(20, 98, 20);
+  background-color: #f06a58;
+  box-shadow: 0 0 5px #f06a58;
 }
 
 nav ul li ul li a {
