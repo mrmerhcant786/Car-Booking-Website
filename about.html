@@ -1,0 +1,189 @@
+<!-- Salman Merchant 8821748  -->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Open+Sans:ital,wght@0,300;0,500;0,800;1,400&display=swap"
+            rel="stylesheet">
+        <!--Google Fonts from https://fonts.google.com/specimen/Oleo+Script+Swash+Caps-->
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+
+            html {
+                box-sizing: border-box;
+            }
+
+            *,
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+
+            .column {
+                float: left;
+                width: 33.3%;
+                margin-bottom: 16px;
+                padding: 0 8px;
+            }
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                margin: 8px;
+            }
+
+            .about-section {
+                padding: 50px;
+                text-align: center;
+                background-color: #eb8440;
+                color: white;
+            }
+
+            .container {
+                padding: 0 16px;
+            }
+
+            .container::after,
+            .row::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .title {
+                color: grey;
+            }
+
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .button:hover {
+                background-color: #555;
+            }
+
+            @media screen and (max-width: 650px) {
+                .column {
+                    width: 100%;
+                    display: block;
+                }
+            }
+
+        </style>
+        <title>About Us</title>
+    </head>
+
+    <body>
+        <header>
+            <!--Logo Image is from https://hatchful.shopify.com/my-logos-->
+            <img id="logo" src="/images/logo.png">
+            <h1>Car Store - Salman Merchant
+                - smerchant1748@conestogac.on.ca
+            </h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="booking.html">Booking</a>
+                    <ul>
+                        <li><a href="booking.html">New Booking</li></a>
+                        <li><a href="#">Booking Status</li></a>
+                        <li><a href="#">Qureies on Booking</li></a>
+                    </ul>
+                </li>
+                <li><a href="#">Abouts</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="about-section">
+                <h1>About Us</h1>
+                <p>Our Team the backbone of our company.</p>
+                <p>The following mebers are the pillars of our company.</p>
+            </div>
+
+            <h2 style="text-align:center">Our Team</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <!--Images from Pexels https://www.pexels.com/photo/woman-in-yellow-crew-neck-t-shirt-smiling-3760851/-->
+                        <img src="/images/jane.jpg" alt="Jane" style="width:100%">
+                        <div class="container">
+                            <h2>Jane Doe</h2>
+                            <p class="title">CEO & Founder</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>jane@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <!--Images from Pexels https://www.pexels.com/photo/man-wearing-brown-dress-shirt-holding-white-fedora-hat-1036627/-->
+                        <img src="/images/mike.jpg" alt="Mike" style="width:100%">
+                        <div class="container">
+                            <h2>Mike Ross</h2>
+                            <p class="title">Art Director</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>mike@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <!--Images from Pexels https://www.pexels.com/photo/woman-wearing-pink-collared-half-sleeved-top-1036623/-->
+                        <img src="/images/neha.jpg" alt="Neha" style="width:100%">
+                        <div class="container">
+                            <h2>Neha Charles</h2>
+                            <p class="title">Designer</p>
+                            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+                            <p>john@example.com</p>
+                            <p><button class="button">Contact</button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav>
+            <ul>
+                <li><a href="#">Need help</a>
+                    <ul>
+                        <li><a href="#">Call Us</a></li>
+                        <li><a href="#">Text Us</a></li>
+                        <li><a href="#">Mail Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms and Conditions</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <footer>
+            &copy; Copyright Salman Merchant, smerchant1748@conestogac.on.ca
+        </footer>
+    </body>
+
+</html>
